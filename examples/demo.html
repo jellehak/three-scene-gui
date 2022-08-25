@@ -63,7 +63,6 @@
           })
         );
 
-
         const container = new THREE.Group()
         container.name = "group"
         container.position.set(2, 0, 0);
@@ -74,32 +73,12 @@
 
         // Add manual object
         const controller = new ObjectGui(container).addTo(gui);
-        window.c = controller
       }
 
       {
         const mesh = new THREE.AxesHelper(100);
         scene.add(mesh);
       }
-      // {
-      //   // Create some scene objects
-      //   const maker = createMaker(scene);
-      //   maker.Box();
-      //   // maker.Sphere().position.set(2, 0, 0);
-      //   const mesh = new THREE.AxesHelper(100);
-      //   scene.add(mesh);
-      // }
-
-      // {
-      //   const container = new THREE.Group()
-      //   container.name = "group"
-      //   container.position.set(2, 0, 0);
-      //   scene.add(container);
-
-      //   const maker = createMaker(container);
-      //   maker.Box();
-      //   maker.Sphere().position.set(2, 0, 0);
-      // }
     </script>
   </body>
 </html>

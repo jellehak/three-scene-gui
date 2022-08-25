@@ -33,12 +33,12 @@
       import { SceneGui } from "../SceneGui.js";
       import { Viewport } from "./Viewport.js";
 
+      // ThreeJs Boilerplate
       const viewport = new Viewport().expose();
       const { scene, THREE } = viewport;
 
       const gui = null; // null will autoload lil-gui from cdn
-      const sceneGui = new SceneGui(gui, { scene }).expose();
-
+      const sceneGui = new SceneGui(gui, { scene, THREE })
       sceneGui.mount();
 
       {
