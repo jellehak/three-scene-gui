@@ -1,0 +1,17 @@
+{
+  "name": "three-scene-gui",
+  "version": "1.0.0",
+  "description": "Fast and lightweight tool for debugging your THREE scene",
+  "main": "SceneGui.js",
+  "scripts": {
+    "start": "npx browser-sync"
+  },
+  "keywords": [
+    "three",
+    "three.js",
+    "javascript",
+    "3d"
+  ],
+  "author": "Jelle",
+  "license": "ISC"
+}
